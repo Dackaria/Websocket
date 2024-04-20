@@ -1,0 +1,98 @@
+<h1>Crear Nuevo Producto</h1>
+
+<form id="addForm" >
+    <div class="row">
+        <div class="col-4 mb-3">
+            <label class="form-label" for="title">Title</label>
+            <input type="text" required name="title">
+        </div>
+        <div class="col-4 mb-3">
+            <label for="description">Description</label>
+            <input type="text" required name="description">
+        </div>
+        <div class="col-4 mb-3">
+            <label for="category">Category</label>
+            <input type="text" required name="category">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4 mb-3">
+            <label for="price">Price</label>
+            <input type="number" required name="price">
+        </div>
+        <div class="col-4 mb-3">
+            <label for="thumbnail">Thumbnail</label>
+            <input type="text" required name="thumbnail">
+        </div>
+        <div class="col-4 mb-3">
+            <label for="stock">Stock</label>
+            <input type="number" required name="stock">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4 mb-3">
+            <label for="code">Code</label>
+            <input type="text" required name="code">
+        </div>
+        
+    </div>
+
+
+    <div class="row">
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+    </div>
+</form><br><br>
+
+
+{{!-- FORMULARIO DE ELIMINACION DE PRODUCTOS --}}
+{{!-- <h1>Eliminar un Producto</h1>
+
+<form id="removeForm" >
+    <div class="row">
+        <div class="col-4 mb-3">
+            <label for="code">Product ID</label>
+            <input type="text" required name="code">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+    </div>
+</form> --}}
+
+
+//Muestro la lista
+ <table id="productsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+                <th>Thumbnail</th>
+                <th>Código</th>
+                <th>Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each products}}
+                <tr>
+                    <td>{{this.id}}</td>
+                    <td>{{this.title}}</td>
+                    <td>{{this.description}}</td>
+                    <td>{{this.price}}</td>
+                    <td><img src="{{this.thumbnail}}" alt="{{this.title}}" style="max-width: 100px;"></td> 
+                    <td>{{this.code}}</td>
+                    <td>{{this.stock}}</td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+
+
+

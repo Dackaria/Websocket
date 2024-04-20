@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Mochila",
+    "description": "Mochila de viaje",
+    "price": 599,
+    "thumbnail": "https://www.google.com.ar",
+    "code": "MV82",
+    "stock": 50,
+    "id": 1
+  },
+  {
+    "title": "Riñonera",
+    "description": "Riñonera impermeable",
+    "price": 399,
+    "thumbnail": "https://www.google.com.ar",
+    "code": "RI82",
+    "stock": 50,
+    "id": 2
+  },
+  {
+    "title": "Bolsito",
+    "description": "Bolso de mano",
+    "price": 499,
+    "thumbnail": "https://www.google.com.ar",
+    "code": "BM82",
+    "stock": 50,
+    "id": 3
+  },
+  {
+    "title": "Bolso",
+    "description": "Bolso de viaje",
+    "price": 499,
+    "thumbnail": "https://www.google.com.ar",
+    "code": "BM82",
+    "stock": 50,
+    "id": 4
+  },
+  {
+    "title": "Cartera",
+    "description": "Cartera amplia",
+    "price": 99.2,
+    "thumbnail": "https://www.google.com.ar",
+    "code": "CF82",
+    "stock": 50,
+    "id": 5
+  },
+  {
+    "title": "Carterita",
+    "description": "Cartera de fiesta",
+    "price": 699,
+    "thumbnail": "https://www.google.com.ar",
+    "code": "CF82",
+    "stock": 50,
+    "id": 6
+  },
+  {
+    "title": "Bolsa de dormir",
+    "description": "Bolsa amplia y mullida",
+    "price": "40",
+    "thumbnail": "https://www.tiomusa.com.ar/imagenes/archivos/2021-03/27945-bolsadedormiridealcampamento210x70.jpg",
+    "code": "bam17",
+    "stock": "23",
+    "id": 7
+  }
+]
